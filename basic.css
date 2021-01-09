@@ -1,0 +1,85 @@
+.container-l {
+  width: 76%;
+  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.container-s {
+  width: 70%;
+  margin: auto;
+  
+}
+
+.text-medium {
+  font-size: 15px;
+}
+
+.text-small {
+  font-size: 14px;
+}
+
+.text-tiny {
+  font-size: 13px;
+}
+
+.text-micro {
+  font-size: 12px;
+}
+
+.red {
+  color: tomato;
+}
+
+  .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+.collapse > ul > li > a {
+  font-size: 15px;
+}
+
+body h1, h2, h3, h4, h5 h6 {
+  text-align: center;
+  font-family: 'poppins';
+}
+
+/* kotak kiri yang di zoom */
+.zoom {
+  transition: transform .5s; /* Animation */
+  z-index: 9;
+  position: relative;
+}
+.zoom:hover {
+  transform: scale(1.2); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* kotak kanan hitam */
+.btm {
+  z-index: -1;
+  position: relative;
+}
+
+
+.card h5, h6, p{
+  font-family: 'poppins';
+}
+
+.card .card-body .collapse p {
+  font-size: 14px;
+}
+
+.card .card-body p {
+  font-size: 14px;
+}
+
+.divider-5 {
+  height: 5em;
+}
+
+.big-tagline {
+  font-weight: bold;
+  font-size: 110px;
+  color: white;
+}
